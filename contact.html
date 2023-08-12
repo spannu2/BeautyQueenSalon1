@@ -1,0 +1,59 @@
+<!--------w-----------
+
+    Project 4
+    Name: Sumail Kaur Pannu 
+    Date: 08 AUGUST,23
+    Description: This is my Project 4 dedicated to my mom's salon in India.
+
+--------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project4.css">
+  <script src="script.js" defer></script>
+  <title>Contact Page</title>
+</head>
+<body>
+    <p id="PARLOR">
+        BEAUTY QUEEN SALON
+    </p>
+    <header>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <div id="saloncontactform">
+    <p id ="name">Contact Us</p>
+    <form id="contactform">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4" required></textarea>
+      
+      <div id="error-message" class="hidden">Please correct the errors before submitting the form.</div>
+      
+      <button type="submit" id="submit-button">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+  <footer>
+    <pre>&copy; 2023 Beauty Queen Salon </pre>
+</footer>
+    
+</body>
+</html>

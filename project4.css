@@ -1,0 +1,227 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name:Sumail Kaur Pannu
+    Date:09-08-23
+    Description: This is my css!
+
+*********************/
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    font-size: 20px;
+}
+
+#business{
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+    position: absolute;
+    right: 200px;
+}
+
+
+#PARLOR{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    right: 550px;
+    color:whitesmoke;
+    background-color: black;
+    font-size: 30px;
+    top: 0px;
+    
+}
+
+h3{
+    position: absolute;
+    right:0px;
+    top: 100px;
+    margin: right;
+}
+
+h2{
+    text-transform: lowercase;
+    text-decoration:dotted;
+    color:black;
+    background-color: aquamarine;
+}
+
+#facial{
+    position: absolute;
+    right: 0px;
+    top: 150px;
+
+}
+
+h4{
+    font-size: 20px;
+    color: blueviolet;
+}
+h5{
+    size: 100px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+#nails{
+    align-items: center;
+    position: absolute;
+    right: 600px;
+    top: 150px;
+}
+
+h6{
+    size: 100px;
+    font-size: large;
+    top: 300px;
+    color: blueviolet;
+    margin-top: 20px;
+    
+}
+
+.bridalimg{
+    height: 400px;
+    width:400px ;
+}
+
+.facialimg{
+    height:400px ;
+    width: 500px;
+}
+
+#nailstext{
+    margin-top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bridetext{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#facialtext{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 700px;
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+pre{
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+/*#name{
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+    position: relative;
+    right: 550px;
+    font-size: 30px;
+
+  }*/
+
+  .parlor2image{
+    height: 500px;
+    width: 700px;
+  }
+
+  .parlorimage{
+    height:400px;
+  }
+  #contactform {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="reset"] {
+    background-color:palevioletred;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  #error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+  }
+
+  #name{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  
+
+  /* Media Queries*/
+
+
+@media screen and (max-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+  }
+  
+  @media screen and (min-width: 1025px) {
+    
+  }
+  
